@@ -1,8 +1,42 @@
-baseURL = 'https://sherises/'
+baseURL = 'https://zyanchew.github.io/sherises/'
 languageCode = 'en-us'
 title = 'She Rises'
 theme = 'hugo-PaperMod'
-[params.homeInfoParams]
-Title = "Welcome to She Rises."
-Content = "A space for voices, stories, and reflections on feminism and gender equity."
 
+[params]
+comments = true
+
+[params.profileMode]
+    enabled = true
+    title = "Welcome to She Rises."
+    subtitle = "A space for voices, stories, and reflections on feminism and gender equity."
+    imageUrl = "images/cover.jpg"
+    imageTitle = "She Rises Banner"
+    imageWidth = 600
+    imageHeight = 400
+    buttons = [
+      { name = "posts", url = "/sherises/posts/" }]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]
+
+
+[[menu.main]]
+identifier = "posts"
+name = "posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20

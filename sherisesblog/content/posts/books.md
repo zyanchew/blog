@@ -6,9 +6,6 @@ title = 'Book Recommendation'
 
 ## 📖 Book Recommendation: *The House of Doors* by Tan Twan Eng
 
-![The House of Doors](https://images-na.ssl-images-amazon.com/images/I/81pUZcTw2LL.jpg)  
-*Image credit: Amazon*
-
 ### ✨ Why This Book Matters
 
 Set in colonial Penang in the 1920s, *The House of Doors* is a richly layered novel exploring memory, secrets, and storytelling. It delves into the intersections of race, gender, and power during a time when women’s lives were deeply constrained by patriarchy and imperialism.
