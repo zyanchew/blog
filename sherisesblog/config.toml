@@ -1,4 +1,4 @@
-baseURL = 'https://zyanchew.github.io/sherises/'
+baseURL = 'https://zyanchew.github.io/'
 languageCode = 'en-us'
 title = 'She Rises'
 theme = 'hugo-PaperMod'
