@@ -1,0 +1,8 @@
+baseURL = 'https://sherises.github.io/'
+languageCode = 'en-us'
+title = 'She Rises'
+theme = 'hugo-PaperMod'
+[params.homeInfoParams]
+Title = "Welcome to She Rises."
+Content = "A space for voices, stories, and reflections on feminism and gender equity."
+

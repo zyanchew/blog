@@ -1,0 +1,4 @@
+[submodule "sherisesblog/public"]
+	path = sherisesblog/public
+	url = https://github.com/zyanchew/sherises.git
+	branch = main
